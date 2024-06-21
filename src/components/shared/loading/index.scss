@@ -1,0 +1,32 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+
+.bm-loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba($color: $white-color, $alpha: 0.8);
+	@include size(100%, 100%);
+	@include font-style(12px, 150%, 400, $secondary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(6px);
+    z-index: 999;
+    img{
+        animation: loaderEffect 2s infinite;
+        transform-origin: center;
+        @include transition();
+        height: 20px;
+    }
+    @keyframes loaderEffect {
+        0%,100% {
+            transform: scale(0.8);
+            opacity: 0.4;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}

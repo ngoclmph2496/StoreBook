@@ -1,0 +1,51 @@
+@import "../../../../styles/mixins";
+@import "../../../../styles/variables";
+
+.table-wrap{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        th,td{
+            padding: 15px;
+            white-space: nowrap;
+        }
+        th{
+            color: $secondary-color;
+            font-weight: 400;
+            border-bottom: 1px $border-color solid;
+        }
+        .action{
+            width: 95px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            padding: 0;
+            border: 0;
+            @include size(30px);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            font-size: 16px;
+            color: $dark-color;
+            @include transition();
+            &:not(:disabled) {
+                cursor: pointer;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+            &.delete{
+                color: $primary-color;
+            }
+            &:not(:last-child){
+                margin-right: 5px;
+            }
+        }
+    }
+}

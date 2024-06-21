@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+.bm-ui{
+    display: flex;
+    position: relative;
+    .bm-main{
+        width: calc(100vw - 80px);
+        padding: 0 30px 30px 0;
+        flex: 1;
+        .bm-body{
+            padding: 40px 50px;
+            @include border-radius(30px);
+            background-color: $light-color;
+            height: calc(100vh - 80px - 30px);
+            .bm-inner{
+                max-height: 100%;
+                overflow-y: auto;
+                margin-right: -25px;
+                padding-right: 25px;
+                &::-webkit-scrollbar {
+                    width: 6px;
+                    border-radius: 10px;
+                }
+                &::-webkit-scrollbar-track {
+                    background-color: $border-color;
+                    border-radius: 10px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: $secondary-color;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

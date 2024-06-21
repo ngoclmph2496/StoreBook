@@ -1,0 +1,49 @@
+.table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-wrap table th, .table-wrap table td {
+  padding: 15px;
+  white-space: nowrap;
+}
+.table-wrap table th {
+  color: #898989;
+  font-weight: 400;
+  border-bottom: 1px rgba(0, 0, 0, 0.1019607843) solid;
+}
+.table-wrap table .action {
+  width: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-wrap table button {
+  padding: 0;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  font-size: 16px;
+  color: #0C131B;
+  transition: all ease-in-out 0.3s;
+}
+.table-wrap table button:not(:disabled) {
+  cursor: pointer;
+}
+.table-wrap table button:not(:disabled):hover {
+  opacity: 0.8;
+}
+.table-wrap table button.delete {
+  color: #F05697;
+}
+.table-wrap table button:not(:last-child) {
+  margin-right: 5px;
+}/*# sourceMappingURL=index.css.map */

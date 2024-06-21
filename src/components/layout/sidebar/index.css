@@ -1,0 +1,58 @@
+.bm-sidebar {
+  width: 80px;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bm-sidebar .bm-logo {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+.bm-sidebar .bm-logo img {
+  max-width: 100%;
+}
+.bm-sidebar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.bm-sidebar ul li a {
+  width: 46px;
+  height: 46px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #898989;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+.bm-sidebar ul li a:hover {
+  color: #F05697;
+}
+.bm-sidebar ul li a.active {
+  background-color: #F05697;
+  color: #fff;
+}
+.bm-sidebar ul li a i {
+  font-size: 24px;
+}
+.bm-sidebar ul li a img, .bm-sidebar ul li a svg {
+  width: 24px;
+  height: auto;
+}
+.bm-sidebar ul li:last-child {
+  padding-top: 80px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+
+.bm-card{
+    padding: 30px 40px;
+	@include border-radius(20px);
+    background-color: $white-color;
+    position: relative;
+    overflow: hidden;
+    &:not(:last-child){
+        margin-bottom: 40px;
+    }
+    &-title{
+        @include font-style(24px, 29px, 600, $black-color);
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.bm-book {
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    span {
+      color: $primary-color;
+    }
+  }
+  .sub-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+}

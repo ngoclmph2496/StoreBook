@@ -1,0 +1,40 @@
+.bm-form-group .bm-form-label {
+  display: inline-flex;
+  margin-bottom: 8px;
+}
+.bm-form-group .bm-form-control {
+  width: 100%;
+  color: #0C131B;
+  border: 1px #898989 solid;
+  background-color: #fff;
+  padding: 10px 16px;
+  outline: 0;
+  transition: all ease-in-out 0.3s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.bm-form-group .bm-form-control:focus {
+  border-color: #0C131B;
+}
+.bm-form-group .bm-form-control::-moz-placeholder {
+  color: #898989;
+}
+.bm-form-group .bm-form-control::placeholder {
+  color: #898989;
+}
+.bm-form-group .bm-form-control.error {
+  border-color: #F05697;
+}
+.bm-form-group .bm-form-control:disabled {
+  background-color: #F8F9FA;
+  opacity: 0.75;
+}
+.bm-form-group .bm-form-error {
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #F05697;
+}/*# sourceMappingURL=index.css.map */

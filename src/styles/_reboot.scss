@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: $font-family-base;
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
+    color: $body-color;
+    text-align: $body-text-align;
+    background-color: $body-bg;
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: rgba($body-bg, 0); 
+}

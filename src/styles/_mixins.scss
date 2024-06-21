@@ -1,0 +1,22 @@
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin border-radius($all: null, $tl: $all, $tr: $all, $btl: $all, $btr: $all) {
+	border-top-left-radius: $tl;
+	border-top-right-radius: $tr;
+	border-bottom-right-radius: $btr;
+	border-bottom-left-radius: $btl;
+}
+
+@mixin font-style($font-size, $line-height: $body-line-height, $font-weight: $body-font-weight, $color: $text-color) {
+	font-size: $font-size;
+	font-weight: $font-weight;
+	line-height: $line-height;
+    color: $color;
+}
+
+@mixin transition($transition: all ease-in-out .3s){
+	transition: $transition;
+}

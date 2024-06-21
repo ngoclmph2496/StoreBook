@@ -1,0 +1,25 @@
+$primary-color: #F05697;
+$secondary-color: #898989;
+$dark-color: #0C131B;
+$light-color: #F8F9FA;
+$white-color: #fff;
+$black-color: #000;
+$border-color: #0000001A;
+$text-color: $dark-color !default;
+
+$theme-colors: (
+	'primary': $primary-color,
+	'secondary': $secondary-color,
+	'dark': $dark-color,
+	'light': $light-color,
+	'white': $white-color,
+	'black': $black-color
+) !default;
+
+$font-family-base: Montserrat, sans-serif !default;
+$body-font-size: 16px !default;
+$body-font-weight: 400 !default;
+$body-line-height: 150% !default;
+$body-color: $text-color !default;
+$body-text-align: left !default;
+$body-bg: $white-color !default;

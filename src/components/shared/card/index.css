@@ -1,0 +1,20 @@
+.bm-card {
+  padding: 30px 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.bm-card:not(:last-child) {
+  margin-bottom: 40px;
+}
+.bm-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #000;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=index.css.map */

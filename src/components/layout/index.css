@@ -1,0 +1,36 @@
+.bm-ui {
+  display: flex;
+  position: relative;
+}
+.bm-ui .bm-main {
+  width: calc(100vw - 80px);
+  padding: 0 30px 30px 0;
+  flex: 1;
+}
+.bm-ui .bm-main .bm-body {
+  padding: 40px 50px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #F8F9FA;
+  height: calc(100vh - 80px - 30px);
+}
+.bm-ui .bm-main .bm-body .bm-inner {
+  max-height: 100%;
+  overflow-y: auto;
+  margin-right: -25px;
+  padding-right: 25px;
+}
+.bm-ui .bm-main .bm-body .bm-inner::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 10px;
+}
+.bm-ui .bm-main .bm-body .bm-inner::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+}
+.bm-ui .bm-main .bm-body .bm-inner::-webkit-scrollbar-thumb {
+  background-color: #898989;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
